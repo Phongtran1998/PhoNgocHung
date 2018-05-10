@@ -2,9 +2,55 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Pho Ngoc Hung</title>
+    <link rel="stylesheet" href="Style.css">
 </head>
 <body>
-    <div> Welcome to Pho Ngoc Hung </div>
+<h1>Welcome to Pho Ngoc Hung</h1>
+<div class="button-container">
+    <a class="button" href="#">About Us</a>
+    <a class="button" href="#">Menu</a>
+</div>
+<div class="intro-container">
+    <div class="intro=element">
+        <div class="fling-minislide">
+            <img src="Pho1.jpg" alt="Slide 4" />
+            <img src="Pho2.jpg" alt="Slide 3" />
+
+            <img src="Pho3.jpg" alt="Slide 2" />
+
+            <img src="Pho4.jpg" alt="Slide 1" />
+        </div>
+    </div>
+    <div class="intro-element" id="intro">
+        <p >
+            This place is a hidden gem in the dominant Hispanic neighborhood in Northern Virgina. Our restaurant is family-based business; we keep every items in the menu simple
+            yet sophisticated and delicious. Our restaurant is famous for our famous Vietnamese pho noodle soup. Our chef has more than 30 years in experience. Come check out our place and you won't regret!
+        </p>
+
+        <p class="wind-slash">
+            We provide:
+        </p>
+        <ul class="wind-slash">
+            <li>Friendly environment for all ages</li>
+            <li>Waiters are professionally trained</li>
+            <li>Incredible homemade Vietnamese food</li>
+        </ul>
+    </div>
+
+</div>
+<div id="googleMap" style="width:100%;height:400px;"></div>
+
+<script>
+    function myMap() {
+        var mapProp= {
+            center:new google.maps.LatLng(51.508742,-0.120850),
+            zoom:5,
+        };
+        var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    }
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
 </body>
 </html>
