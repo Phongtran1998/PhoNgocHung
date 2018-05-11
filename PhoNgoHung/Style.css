@@ -34,11 +34,12 @@
     display: inline-block;
 }
 #intro {
-    width: 800px;
+    max-width: 48%;
     height: 300px;
-    position: absolute;
+    position: relative;
     left: 55%;
-    top: 120px;
+    top: -600px;
+    /*right: 20px;*/
     font-size: 30px;
 }
 .wind-slash{
