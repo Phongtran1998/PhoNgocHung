@@ -37,7 +37,7 @@
     max-width: 48%;
     height: 300px;
     position: relative;
-    left: 55%;
+    left: 54%;
     top: -600px;
     /*right: 20px;*/
     font-size: 30px;
@@ -50,7 +50,6 @@
     top: 50px;
     margin-left: 25%;
 }
-body{
+body {
     margin: 0;
-    padding: 0;
 }
