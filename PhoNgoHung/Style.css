@@ -16,7 +16,7 @@
     line-height: 50px;
     font-family: Arial;
 }
-.fling-minislide {width:50%; height:600px; overflow:hidden; position:relative; }
+.fling-minislide {width:50%; height:600px; overflow:hidden; position:relative; left: 20px; top: 20px;}
 .fling-minislide img{ position:absolute; animation:fling-minislide 20s infinite; opacity:0; width: 100%; height: auto;}
 
 @keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}}
@@ -40,10 +40,11 @@
     left: 54%;
     top: -600px;
     /*right: 20px;*/
-    font-size: 30px;
+    font-size: 27px;
 }
 .wind-slash{
-    font-size: 30px;
+    font-size: 25px;
+    color: deeppink;
 }
 #googleMap {
     position: absolute;
