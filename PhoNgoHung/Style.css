@@ -1,6 +1,6 @@
 .button-container {
     font-size: 0;
-
+    display: flex;
 }
 
 
@@ -12,7 +12,6 @@ h1{
 .button{
     display: inline-block;
     box-sizing: border-box;
-    width: calc(100% / 2);
     background-color: #0099ff; /* Green */
     border-right: 1px solid #537b55;
     color: white;
@@ -23,6 +22,7 @@ h1{
     line-height: 50px;
     font-weight: bold;
     font-family: Arial;
+    flex: 1;
 }
 .fling-minislide {width:50%; height:600px; overflow:hidden; position:relative; left: 20px; top: 20px;}
 .fling-minislide img{ position:absolute; animation:fling-minislide 20s infinite; opacity:0; width: 100%; height: auto;}
@@ -36,12 +36,13 @@ h1{
 .intro-container{
     margin-right: 50px;
     height: 650px;
-
 }
+
 .intro-element {
     width: calc(100% / 2);
     display: inline-block;
 }
+
 #intro {
     max-width: 48%;
     height: 300px;
@@ -57,8 +58,8 @@ h1{
 }
 #googleMap {
     position: relative;
-
-    margin-left: 25%;
+    margin-left: 53%;
+    top: -650px;
 }
 body {
     margin: 0;
@@ -83,8 +84,10 @@ body {
 
 
 #sub-intro  {
-    background-color: pink;
-    font-size: 25px;
-    width: 400px;
-
+    border: 1px solid lightskyblue;
+    font-size: 18px;
+    width: 540px;
+    position: relative;
+    top: -55px;
+    padding: 10px;
 }
