@@ -2,18 +2,26 @@
     font-size: 0;
 
 }
+
+
+h1{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 100px;
+}
 .button{
     display: inline-block;
     box-sizing: border-box;
     width: calc(100% / 2);
-    background-color: #4CAF50; /* Green */
+    background-color: #0099ff; /* Green */
     border-right: 1px solid #537b55;
     color: white;
     /*padding: 15px 0;*/
     text-align: center;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 30px;
     line-height: 50px;
+    font-weight: bold;
     font-family: Arial;
 }
 .fling-minislide {width:50%; height:600px; overflow:hidden; position:relative; left: 20px; top: 20px;}
@@ -27,6 +35,7 @@
 
 .intro-container{
     margin-right: 50px;
+    height: 650px;
 
 }
 .intro-element {
@@ -47,10 +56,35 @@
     color: deeppink;
 }
 #googleMap {
-    position: absolute;
-    top: 800px;
+    position: relative;
+
     margin-left: 25%;
 }
 body {
     margin: 0;
+    background-color: #b3ecff;
+    /*background-image: url("quanPho.jpg");*/
+    /*opacity: 5;*/
+    /*background-size: cover;*/
+    padding: 0;
+    overflow-x: hidden;
+}
+.navigation {
+    position: relative;
+    left: 42%;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.sliding-wind {
+    text-align: center;
+}
+
+
+#sub-intro  {
+    background-color: pink;
+    font-size: 25px;
+    width: 400px;
+
 }
