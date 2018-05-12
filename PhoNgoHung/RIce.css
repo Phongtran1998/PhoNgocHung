@@ -35,3 +35,7 @@
     width: 160px;
     height: 80px;
 }
+
+#id {
+    position: sticky
+}
