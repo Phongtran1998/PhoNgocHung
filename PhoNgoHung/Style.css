@@ -9,21 +9,37 @@ h1{
     text-align: center;
     font-size: 100px;
 }
-.button{
-    display: inline-block;
-    box-sizing: border-box;
-    background-color: #0099ff; /* Green */
-    border-right: 1px solid #537b55;
-    color: white;
-    /*padding: 15px 0;*/
-    text-align: center;
-    text-decoration: none;
-    font-size: 30px;
-    line-height: 50px;
-    font-weight: bold;
-    font-family: Arial;
-    flex: 1;
+
+/*.button{*/
+    /*display: inline-block;*/
+    /*box-sizing: border-box;*/
+    /*background-color: #0099ff; !* Green *!*/
+    /*border-right: 1px solid #537b55;*/
+    /*color: white;*/
+    /*!*padding: 15px 0;*!*/
+    /*text-align: center;*/
+    /*text-decoration: none;*/
+    /*font-size: 30px;*/
+    /*line-height: 50px;*/
+    /*font-weight: bold;*/
+    /*font-family: Arial;*/
+    /*flex: 1;*/
+/*}*/
+
+.button.container {
+    display: flex;
+    margin: 40px auto 0 auto;
+    justify-content: space-between;
 }
+
+.button {
+    flex: 0;
+    text-decoration: none;
+    padding: 20px;
+    margin-bottom: 20px;
+    flex-basis: 30%;
+}
+
 .fling-minislide {width:50%; height:600px; overflow:hidden; position:relative; left: 20px; top: 20px;}
 .fling-minislide img{ position:absolute; animation:fling-minislide 20s infinite; opacity:0; width: 100%; height: auto;}
 
@@ -33,61 +49,72 @@ h1{
 .fling-minislide img:nth-child(2){animation-delay:10s;}
 .fling-minislide img:nth-child(1){animation-delay:15s;}
 
-.intro-container{
-    margin-right: 50px;
-    height: 650px;
+/*.intro-container{*/
+    /*margin-right: 50px;*/
+    /*height: 650px;*/
+/*}*/
+
+/*.intro-element {*/
+    /*width: calc(100% / 2);*/
+    /*display: inline-block;*/
+/*}*/
+
+/*#intro {*/
+    /*max-width: 48%;*/
+    /*height: 300px;*/
+    /*position: relative;*/
+    /*left: 54%;*/
+    /*top: -600px;*/
+    /*!*right: 20px;*!*/
+    /*font-size: 27px;*/
+/*}*/
+/*.wind-slash{*/
+    /*font-size: 25px;*/
+    /*color: deeppink;*/
+/*}*/
+/*#googleMap {*/
+    /*position: relative;*/
+    /*margin-left: 53%;*/
+    /*top: -650px;*/
+/*}*/
+/*body {*/
+    /*margin: 0;*/
+    /*background-color: #b3ecff;*/
+    /*!*background-image: url("quanPho.jpg");*!*/
+    /*!*opacity: 5;*!*/
+    /*!*background-size: cover;*!*/
+    /*padding: 0;*/
+    /*overflow-x: hidden;*/
+/*}*/
+/*.navigation {*/
+    /*position: relative;*/
+    /*left: 42%;*/
+    /*font-style: italic;*/
+    /*font-weight: bold;*/
+    /*font-size: 22px;*/
+/*}*/
+
+/*.sliding-wind {*/
+    /*text-align: center;*/
+/*}*/
+
+
+/*#sub-intro  {*/
+    /*border: 1px solid lightskyblue;*/
+    /*font-size: 18px;*/
+    /*width: 540px;*/
+    /*position: relative;*/
+    /*top: -55px;*/
+    /*padding: 10px;*/
+/*}*/
+
+.intro-container    {
+    display: flex;
 }
 
-.intro-element {
-    width: calc(100% / 2);
-    display: inline-block;
+.intro-element  {
+    flex: 1;
 }
 
-#intro {
-    max-width: 48%;
-    height: 300px;
-    position: relative;
-    left: 54%;
-    top: -600px;
-    /*right: 20px;*/
-    font-size: 27px;
-}
-.wind-slash{
-    font-size: 25px;
-    color: deeppink;
-}
-#googleMap {
-    position: relative;
-    margin-left: 53%;
-    top: -650px;
-}
-body {
-    margin: 0;
-    background-color: #b3ecff;
-    /*background-image: url("quanPho.jpg");*/
-    /*opacity: 5;*/
-    /*background-size: cover;*/
-    padding: 0;
-    overflow-x: hidden;
-}
-.navigation {
-    position: relative;
-    left: 42%;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 22px;
-}
-
-.sliding-wind {
-    text-align: center;
-}
-
-
-#sub-intro  {
-    border: 1px solid lightskyblue;
-    font-size: 18px;
-    width: 540px;
-    position: relative;
-    top: -55px;
-    padding: 10px;
-}
+.intro-element:nth-child(2)   {flex-direction: row;}
+.intro-element:nth-child(3)   {flex-direction: row;}
