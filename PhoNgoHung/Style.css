@@ -18,10 +18,11 @@ h1{
     font-family: 'Nanum Gothic', sans-serif;
 }
 .button{
-    display: inline-block;
     box-sizing: border-box;
     background-color: #0099ff; /* Green */
     border-right: 1px solid #537b55;
+    border-bottom: 1px solid #537b55;
+    border-top: 1px solid #537b55;
     color: white;
     /*padding: 15px 0;*/
     text-align: center;
@@ -119,4 +120,42 @@ footer{
 }
 .inner-container {
     flex: 1;
+}
+.menu {
+    margin-left: 15%;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+}
+.section-container {
+    width: 75%;
+    display: flex;
+    margin-left: 10%;
+}
+.section:first-child {
+    border-left: 1px solid #537b55;
+}
+.section {
+    box-sizing: border-box;
+    background-color: #ff1a1a;
+    border-right: 1px solid #537b55;
+    border-bottom: 1px solid #537b55;
+    border-top: 1px solid #537b55;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: bold;
+    flex: 1;
+}
+.question {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+.category {
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
 }
