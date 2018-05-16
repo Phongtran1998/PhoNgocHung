@@ -33,34 +33,6 @@ h1{
 .fling-minislide img:nth-child(2){animation-delay:10s;}
 .fling-minislide img:nth-child(1){animation-delay:15s;}
 
-.intro-container{
-    margin-right: 50px;
-    height: 650px;
-}
-
-.intro-element {
-    width: calc(100% / 2);
-    display: inline-block;
-}
-
-#intro {
-    max-width: 48%;
-    height: 300px;
-    position: relative;
-    left: 54%;
-    top: -600px;
-    /*right: 20px;*/
-    font-size: 27px;
-}
-.wind-slash{
-    font-size: 25px;
-    color: deeppink;
-}
-#googleMap {
-    position: relative;
-    margin-left: 53%;
-    top: -650px;
-}
 body {
     margin: 0;
     background-color: #b3ecff;
@@ -70,24 +42,19 @@ body {
     padding: 0;
     overflow-x: hidden;
 }
-.navigation {
+.intro-container {
+    width: 100%;
+    font-size: 30px;
+    overflow: hidden;
     position: relative;
-    left: 42%;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 22px;
+    display: flex;
 }
 
-.sliding-wind {
+.intro-element {
+    display: inline-block;
+    margin: 0;
+    width: calc(100%/2);
     text-align: center;
-}
-
-
-#sub-intro  {
-    border: 1px solid lightskyblue;
-    font-size: 18px;
-    width: 540px;
-    position: relative;
-    top: -55px;
-    padding: 10px;
+    padding: 6px;
+    line-height: 100%;
 }
