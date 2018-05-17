@@ -7,7 +7,15 @@
 h1{
     font-family: 'Lobster', cursive;
     text-align: center;
-    font-size: 100px;
+    font-size: 80px;
+    line-height: 0.1em;
+}
+.time {
+    display: flex;
+}
+.header {
+    flex: 1;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 /*.button{*/
@@ -33,7 +41,18 @@ h1{
 }
 
 .button {
-    flex: 0;
+    flex: 1;
+}
+
+.button{
+    box-sizing: border-box;
+    background-color: #0099ff; /* Green */
+    border-right: 1px solid #537b55;
+    border-bottom: 1px solid #537b55;
+    border-top: 1px solid #537b55;
+    color: white;
+    /*padding: 15px 0;*/
+    text-align: center;
     text-decoration: none;
     padding: 20px;
     margin-bottom: 20px;
@@ -142,8 +161,8 @@ body {
 
 .intro-element:last-child {
     margin-left: 40px;
->>>>>>> 55eba1b41418c825b1d3c399b312fabc4b0b42cf
 }
+
 
 .intro-element  {
     flex: 1;
@@ -151,3 +170,95 @@ body {
 
 .intro-element:nth-child(2)   {flex-direction: row;}
 .intro-element:nth-child(3)   {flex-direction: row;}
+
+h2 {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+}
+footer{
+    margin-top: 40px;
+    background-color: #0099ff;
+    width: 100%;
+    height: 200px;
+    bottom: auto;
+}
+.footer-links {
+    padding: 25px 0 23px;
+    margin: 0;
+    font-size: 30px;
+    letter-spacing: 20px;
+    text-decoration: none;
+    border-radius: 50%;
+    text-align: center;
+}
+.footer-company-name {
+    color: white;
+    font-size: 14px;
+    margin: 0;
+    padding-bottom: 5px;
+    text-align: center;
+}
+.footer-link {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+.navigation {
+    text-align: center;
+    font-family: 'Lobster' ,cursive;
+}
+#sub-intro {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 20px;
+}
+.wind-slash {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 20px;
+    list-style-position: inside;
+}
+.outer-container {
+    display: flex;
+}
+.inner-container {
+    flex: 1;
+}
+.menu {
+    margin-left: 15%;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+}
+.section-container {
+    width: 75%;
+    display: flex;
+    margin-left: 10%;
+}
+.section:first-child {
+    border-left: 1px solid #537b55;
+}
+.section {
+    box-sizing: border-box;
+    background-color: #ff1a1a;
+    border-right: 1px solid #537b55;
+    border-bottom: 1px solid #537b55;
+    border-top: 1px solid #537b55;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: bold;
+    flex: 1;
+}
+.question {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+.category {
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
