@@ -40,7 +40,9 @@ h1{
     flex-basis: 30%;
 }
 
+
 .fling-minislide {width:50%; height:600px; overflow:hidden; position:relative; left: 20px; top: 20px;}
+.fling-minislide {width:100%; height:600px; overflow:hidden; position:relative; top: 20px;}
 .fling-minislide img{ position:absolute; animation:fling-minislide 20s infinite; opacity:0; width: 100%; height: auto;}
 
 @keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}}
@@ -72,11 +74,13 @@ h1{
     /*font-size: 25px;*/
     /*color: deeppink;*/
 /*}*/
-/*#googleMap {*/
-    /*position: relative;*/
-    /*margin-left: 53%;*/
-    /*top: -650px;*/
-/*}*/
+
+#googleMap {
+    position: relative;
+    margin-left: 53%;
+    top: -650px;
+}
+
 /*body {*/
     /*margin: 0;*/
     /*background-color: #b3ecff;*/
@@ -108,8 +112,37 @@ h1{
     /*padding: 10px;*/
 /*}*/
 
-.intro-container    {
+.intro-container {
     display: flex;
+}
+
+body {
+    margin: 0;
+    background-color: #b3ecff;
+    /*background-image: url("quanPho.jpg");*/
+    /*opacity: 5;*/
+    /*background-size: cover;*/
+    padding: 0;
+    overflow-x: hidden;
+}
+.intro-container {
+    width: 100%;
+    font-size: 30px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+}
+
+.intro-element {
+    display: inline-block;
+    margin: 0;
+    width: calc(100%/2);
+    line-height: 100%;
+}
+
+.intro-element:last-child {
+    margin-left: 40px;
+>>>>>>> 55eba1b41418c825b1d3c399b312fabc4b0b42cf
 }
 
 .intro-element  {
