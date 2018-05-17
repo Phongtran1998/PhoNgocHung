@@ -33,6 +33,10 @@ h1{
     font-family: Arial;
     flex: 1;
 }
+.button:hover {
+    background-color: white;
+    color: #0099ff;
+}
 .fling-minislide {width:100%; height:600px; overflow:hidden; position:relative; top: 20px;}
 .fling-minislide img{ position:absolute; animation:fling-minislide 20s infinite; opacity:0; width: 100%; height: auto;}
 
@@ -78,7 +82,7 @@ footer{
     margin-top: 40px;
     background-color: #0099ff;
     width: 100%;
-    height: 200px;
+    height: 150px;
     bottom: auto;
 }
 .footer-links {
@@ -121,15 +125,19 @@ footer{
 .inner-container {
     flex: 1;
 }
+.inner-container:first-child {
+    margin-left: 5%;
+}
 .menu {
-    margin-left: 15%;
+
     font-weight: bold;
-    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 .section-container {
     width: 75%;
     display: flex;
-    margin-left: 10%;
+    margin-left: 13%;
 }
 .section:first-child {
     border-left: 1px solid #537b55;
@@ -148,6 +156,10 @@ footer{
     font-weight: bold;
     flex: 1;
 }
+.section:hover {
+    background-color: white;
+    color: #ff1a1a;
+}
 .question {
     text-align: center;
     font-family: 'Lobster', cursive;
@@ -158,4 +170,7 @@ footer{
     font-family: 'Nanum Gothic', sans-serif;
     font-weight: bold;
     font-size: 30px;
+}
+.inner-container1 {
+    flex: 1;
 }
