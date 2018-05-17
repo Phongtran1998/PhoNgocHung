@@ -219,13 +219,12 @@ footer{
 
 #sub-intro {
     font-family: 'Nanum Gothic', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .chem-gio   {
     margin: auto;
     width: fit-content;
-    background-color: cornflowerblue;
 
 }
 
@@ -317,5 +316,24 @@ footer{
     top: 0;
     float: right;
     width: fit-content;
+}
+.choice {
+    width: 50%;
+    display: flex;
+    margin-left: 25%;
+}
+.type {
+    box-sizing: border-box;
+    background-color: deepskyblue;
+    border-right: 1px solid #537b55;
+    border-bottom: 1px solid #537b55;
+    border-top: 1px solid #537b55;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: bold;
+    flex: 1;
 }
 
