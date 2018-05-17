@@ -336,4 +336,11 @@ footer{
     font-weight: bold;
     flex: 1;
 }
+.type:first-child {
+    border-left: 1px solid #537b55;
+}
+.type:hover {
+    background-color: white;
+    color: deepskyblue;
+}
 
