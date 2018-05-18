@@ -348,13 +348,13 @@ footer{
 .noodle-container {
     margin-left: 33%;
 }
-@media only screen and (min-width: 768px) {
-    ol {
-        font-size: 15px;
-    }
-}
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1508px) {
     ol {
         font-size: 25px;
+    }
+}
+@media only screen and (max-width: 1300px) {
+    ol {
+        font-size: 15px;
     }
 }
