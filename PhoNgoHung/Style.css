@@ -343,4 +343,6 @@ footer{
     background-color: white;
     color: deepskyblue;
 }
-
+.noodle-container {
+    margin-left: 33%;
+}

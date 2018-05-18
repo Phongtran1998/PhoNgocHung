@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pho Ngoc Hung</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+
+<h1 id="title"> Rice Platters </h1>
+
+<div class="button-container">
+    <a class="button" href="index.html">About Us</a>
+    <a class="button" href="Menu.html">Menu</a>
+    <a class="button" href="Contact.html">Contact</a>
+</div>
+
+<div id="contact">
+    Contact us: +1 (703) 347-7575
+</div>
+
+<div class="section-container">
+    <a class="section" href="index.html">Appetizer</a>
+    <a class="section" href="#" style="background-color: white;color: #ff1a1a">Noodle</a>
+    <a class="section" href="Rice.html">Rice Vermicelli</a>
+    <a class="section" href="Rice.html" >Rice</a>
+</div>
+
+<br>
+
+<div class="choice">
+    <a class="type" href="#pork">Beef Pho</a>
+    <a class="type" href="#chicken">Chicken Pho</a>
+    <a class="type" href="#seafood">Seafood Pho</a>
+    <a class="type" href="#combo">Noodle & Wonton</a>
+</div>
+
+<br>
+
+<div id="pork" class="noodle-container">
+    <h3 style="margin-left: 25%">Beef Pho</h3>
+   <img src="PhoTai.jpg" width="700px" height="500px">
+    <ul>
+        <li>Pho Tai</li>
+        <li>Pho Tai</li>
+        <li>Pho Tai</li>
+        <li>Pho Tai</li>
+    </ul>
+</div>
+
+<div id="chicken" class="noodle-container">
+    <h3 style="margin-left: 35%">Beef Pho</h3>
+    <img src="PhoTai.jpg" width="75%" height="700px">
+    <ul>
+        <li>Pho Tai</li>
+        <li>Pho Tai</li>
+        <li>Pho Tai</li>
+        <li>Pho Tai</li>
+    </ul>
+</div>
+
+<div id="seafood" class="noodle-container">
+    <h3 style="margin-left: 35%">Beef Pho</h3>
+    <img src="PhoTai.jpg" width="75%" height="700px">
+    <ul>
+        <li>Pho Tai</li>
+        <li>Pho Tai</li>
+        <li>Pho Tai</li>
+        <li>Pho Tai</li>
+    </ul>
+
+</div>
+
+<div id="combo" class="noodle-container">
+    <h3 style="margin-left: 35%">Noodle and Wonton</h3>
+    <img src="HoanhThanh.jpg" width="700px" height="500px">
+    <ul>
+        <li>Pho Tai</li>
+        <li>Pho Tai</li>
+        <li>Pho Tai</li>
+        <li>Pho Tai</li>
+    </ul>
+</div>
+
+<!--<h1>My Web Page</h1>-->
+
+<!--<p>Hello everybody!</p>-->
+
+<!--<p>Translate this page:</p>-->
+
+<!--<div id="google_translate_element"></div>-->
+
+<!--<script type="text/javascript">-->
+<!--function googleTranslateElementInit() {-->
+<!--new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');-->
+<!--}-->
+<!--</script>-->
+
+<!--<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>-->
+<footer>
+    <p class="footer-links">
+        <a target="_blank" href="https://www.facebook.com/pages/Pho-Ngoc-Hung/152227774864498" class="fa fa-facebook footer-link"></a>
+        <a href="#" class="fa fa-instagram footer-link"></a>
+        <a target="_blank" href="https://www.yelp.com/biz/pho-ngoc-hung-falls-church" class="fa fa-yelp footer-link"></a>
+    </p>
+    <p class="footer-company-name">&#9400; 2018 by Pho Ngoc Hung</p>
+
+</footer>
+
+<script>
+    window.onscroll = function() {myFunction()};
+
+    var navbar = document.getElementById("contact");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+        } else {
+            navbar.classList.remove("sticky");
+        }
+    }
+</script>
+
+</body>
+</html>
