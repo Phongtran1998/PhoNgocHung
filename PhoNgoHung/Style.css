@@ -239,6 +239,8 @@ footer{
 }
 
 .inner-container {
+    min-width: 300px;
+    max-width: 1000px;
     flex: 1;
 }
 .inner-container:first-child {
@@ -346,4 +348,13 @@ footer{
 .noodle-container {
     margin-left: 33%;
 }
-
+@media only screen and (min-width: 768px) {
+    ol {
+        font-size: 15px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    ol {
+        font-size: 25px;
+    }
+}
