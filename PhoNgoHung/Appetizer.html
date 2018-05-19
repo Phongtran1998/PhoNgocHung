@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pho Ngoc Hung</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+<h1 id="title"> Appetizers </h1>
+
+<div class="button-container">
+    <a class="button" href="index.html">About Us</a>
+    <a class="button" href="Menu.html">Menu</a>
+    <a class="button" href="Contact.html">Contact</a>
+</div>
+
+<div id="contact">
+    Contact us: +1 (703) 347-7575
+</div>
+
+<div class="section-container">
+    <a class="section" href="#"  style="background-color: white;color: #ff1a1a">Appetizer</a>
+    <a class="section" href="Pho.html">Noodle</a>
+    <a class="section" href="Vermicelli.html">Rice Vermicelli</a>
+    <a class="section" href="Rice.html" >Rice</a>
+</div>
+
+<br>
+<div  class="outer-container">
+    <div class="inner-container">
+        <img src="IMG_0655.JPG" style="width: 80%; height: 400px">
+        <p class="menu">Cha Gio - Crispy Spring Rolls Pork or Chicken</p>
+    </div>
+    <div class="inner-container">
+        <img src="IMG_0655.JPG" style="width: 80%; height: 400px">
+        <p class="menu">Cha Gio Tom - Shrimp Crispy Spring Rolls</p>
+    </div>
+    <div class="inner-container">
+        <img src="IMG_0655.JPG" style="width: 80%; height: 400px; margin-left: 20px">
+        <p class="menu">Goi Cuon - Fresh Garden Rolls With Shrimp and Pork </p>
+    </div>
+</div>
+<div class="outer-container">
+    <div class="inner-container">
+        <img src="IMG_0655.JPG" style="width: 80%; height: 400px">
+        <p class="menu">Bi Cuon - Shredded Pork Rolls</p>
+    </div>
+    <div class="inner-container">
+        <img src="IMG_0655.JPG" style="width: 80%; height: 400px">
+        <p class="menu">Dau Hu Chien Gion - Crispy Tofu</p>
+    </div>
+    <div class="inner-container">
+        <img src="IMG_0655.JPG" style="width: 80%; height: 400px; margin-left: 20px">
+        <p class="menu">Tom Chien Gion - Crispy Butterfly Shrimp </p>
+    </div>
+</div>
+<div class="outer-container">
+    <div class="inner-container">
+        <img src="IMG_0655.JPG" style="width: 80%; height: 400px">
+        <p class="menu">Chim Cut Roti - Roasted Quails</p>
+    </div>
+    <div class="inner-container">
+        <img src="IMG_0655.JPG" style="width: 80%; height: 400px">
+        <p class="menu">Ha Cao - Dumplings With Shrimp, Vegetable and Pork</p>
+    </div>
+    <div class="inner-container">
+        <img src="IMG_0655.JPG" style="width: 80%; height: 400px; margin-left: 20px">
+        <p class="menu">Canh Ga Chien Bo - Crispy Chicken Wings </p>
+    </div>
+</div>
+<div id="pork" class="outer-container">
+    <div class="inner-container">
+        <img src="IMG_0655.JPG" style="width: 80%; height: 400px">
+        <p class="menu">Bo Vien Chien - Fried Beef Balls</p>
+    </div>
+    <div class="inner-container">
+        <img src="IMG_0655.JPG" style="width: 80%; height: 400px">
+        <p class="menu">Muc Rang Muoi - Salty Fried Squid</p>
+    </div>
+    <div class="inner-container">
+        <img src="IMG_0655.JPG" style="width: 80%; height: 400px; margin-left: 20px">
+        <p class="menu">Hoanh Thanh Sup - Wonton Soup</p>
+    </div>
+</div>
+<footer>
+    <p class="footer-links">
+        <a target="_blank" href="https://www.facebook.com/pages/Pho-Ngoc-Hung/152227774864498" class="fa fa-facebook footer-link"></a>
+        <a href="#" class="fa fa-instagram footer-link"></a>
+        <a target="_blank" href="https://www.yelp.com/biz/pho-ngoc-hung-falls-church" class="fa fa-yelp footer-link"></a>
+    </p>
+    <p class="footer-company-name">&#9400; 2018 by Pho Ngoc Hung</p>
+
+</footer>
+<script>
+    window.onscroll = function() {myFunction()};
+
+    var navbar = document.getElementById("contact");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+        } else {
+            navbar.classList.remove("sticky");
+        }
+    }
+</script>
+</body>
+</html>
