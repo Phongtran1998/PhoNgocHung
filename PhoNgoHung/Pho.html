@@ -9,11 +9,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
     <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 </head>
 
-<body>
+<body style="background-color: #b3ecff">
 
-<h1 id="title"> Pho </h1>
+<h1 id="title" class="display-2 font-weight-bold font-italic"> Pho </h1>
 
 <div class="button-container">
     <a class="button" href="index.html">About Us</a>
@@ -43,12 +47,12 @@
 
 <br>
 
-<div id="pork" class="outer-container">
-    <div class="inner-container" style="margin-left: 5px">
-        <h3 style="font-family: 'Nanum Gothic', sans-serif">Beef Pho - <span style="font-weight: lighter"> Any combination:<br> Eye Round Steak, Well Done Lean Meat, Flank, Brisket, Soft Tendon, and Tripe</span></h3>
+<div id="pork" class="row">
+    <div class="col" style="margin-left: 5px">
+        <h3 style="font-family: 'Nanum Gothic', sans-serif" class="font-weight-bold">Beef Pho - <small> Any combination:<br> Eye Round Steak, Well Done Lean Meat, Flank, Brisket, Soft Tendon, and Tripe</small></h3>
    <img src="PhoTai.jpg" width="90%" height="750px">
     </div>
-    <div class="inner-container phoBo">
+    <div class="col phoBo">
         <br style="line-height: 35px">
         <div style="line-height: 40px; margin-left: 20px">
             <ol start="12">
@@ -75,13 +79,14 @@
         </div>
 </div>
 <br>
-<div id="chicken" class="outer-container">
-    <div class="inner-container" style="margin-left: 5px">
-        <h3 style="font-family: 'Nanum Gothic', sans-serif"> Chicken Pho</h3>
+<div id="chicken" class="row">
+    <div class="col" style="margin-left: 5px">
+        <h3 class="font-weight-bold" style="font-family: 'Nanum Gothic', sans-serif"> Chicken Pho</h3>
         <img src="phoGa.jpg" width="90%" height="400px">
     </div>
-    <div class="inner-container phoGa">
-        <br style="line-height: 130px">
+    <div class="col phoGa">
+        <br>
+        <br>
         <div style="line-height: 40px; margin-left: -10px">
             <ol start="30">
                 <li>Pho Ga Luon - Chicken Noodle Soup With Chicken White Meat</li>
@@ -91,12 +96,12 @@
             </ol>
         </div>
     </div>
-    <div id="noodle" class="inner-container" style="margin-left: 10px">
-            <h3 style=" font-family: 'Nanum Gothic', sans-serif">Wonton Noodle(Pork Broth)</h3>
+    <div id="noodle" class="col" style="margin-left: 10px">
+            <h3 class="font-weight-bold" style=" font-family: 'Nanum Gothic', sans-serif">Wonton Noodle(Pork Broth)</h3>
             <img src="HoanhThanh.jpg" width="90%" height="405px">
     </div>
-    <div class="inner-container hoanhThanh">
-        <br style="line-height: 80px">
+    <div class="col hoanhThanh">
+        <br>
         <div style="line-height: 40px;">
         <ol start="33">
             <li>Mi Hoanh Thanh Tom - Egg Noodle Soup + Wonton + Shrimp</li>
@@ -109,9 +114,9 @@
     </div>
 </div>
 <br>
-<div id="seafood" class="outer-container" style="margin-left: 35%">
-    <div class="inner-container">
-        <h3 style="margin-left: 4%">29.Pho Do Bien - Seafood Pho</h3>
+<div id="seafood" class="row" style="margin-left: 35%">
+    <div class="col">
+        <h3 class="font-weight-bold" style="margin-left: 4%">29.Pho Do Bien - Seafood Pho</h3>
         <img src="phoDoBien.jpg" width="500px" height="500px">
     </div>
 </div>

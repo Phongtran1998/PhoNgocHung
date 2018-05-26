@@ -3,12 +3,7 @@
     display: flex;
 }
 
-h1{
-    font-family: 'Lobster', cursive;
-    text-align: center;
-    font-size: 80px;
-    line-height: 0.1em;
-}
+
 .time {
     display: flex;
 }
@@ -300,6 +295,7 @@ footer{
     font-size: 40px;
     padding: 25px;
     margin-bottom: 20px;
+
 }
 
 .sticky {
@@ -307,6 +303,7 @@ footer{
     top: 0;
     float: right;
     width: fit-content;
+    z-index: 10;
 }
 .choice {
     width: 50%;
@@ -339,7 +336,7 @@ footer{
 }
 @media only screen and (min-width: 1508px) {
     .phoBo {
-        font-size: 25px;
+        font-size: 22px;
     }
     .phoGa {
         font-size: 25px;
@@ -365,10 +362,13 @@ footer{
         font-size: 25px;
         list-style-position: inside;
     }
+    #sub-intro {
+        font-size: 25px;
+    }
 }
 @media only screen and (max-width: 1300px) {
     .phoBo {
-        font-size: 20px;
+        font-size: 18px;
     }
     .phoGa {
         font-size: 20px;
@@ -393,5 +393,13 @@ footer{
         font-family: 'Nanum Gothic', sans-serif;
         font-size: 15px;
         list-style-position: inside;
+    }
+    #sub-intro {
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 760px) {
+    #googleMap {
+        margin-left: 10px;
     }
 }
