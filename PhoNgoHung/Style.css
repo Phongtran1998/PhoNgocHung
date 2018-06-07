@@ -169,6 +169,7 @@ h2 {
     font-size: 35px;
 }
 footer{
+    position: absolute;
     margin-top: 40px;
     background-color: #0099ff;
     width: 100%;
@@ -324,6 +325,9 @@ footer{
     font-weight: bold;
     flex: 1;
 }
+h1 {
+    text-align: center;
+}
 .type:first-child {
     border-left: 1px solid #537b55;
 }
@@ -333,6 +337,10 @@ footer{
 }
 .noodle-container {
     margin-left: 33%;
+}
+.picture {
+    width: 70%;
+    margin-left: 20%;
 }
 @media only screen and (min-width: 1508px) {
     .phoBo {
