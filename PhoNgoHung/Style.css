@@ -133,6 +133,11 @@
     display: flex;
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 body {
     margin: 0;
     background-color: #b3ecff;
@@ -163,18 +168,23 @@ body {
 .intro-element:nth-child(2)   {flex-direction: row;}
 .intro-element:nth-child(3)   {flex-direction: row;}
 
+.main-container {
+    min-height: 100%;
+    margin-bottom: -150px;
+}
+
 h2 {
     text-align: center;
     font-family: 'Lobster', cursive;
     font-size: 35px;
 }
 footer{
-    position: absolute;
-    margin-top: 40px;
+    /*position: fixed;*/
+    /*margin-top: 40px;*/
     background-color: #0099ff;
     width: 100%;
     height: 150px;
-    bottom: auto;
+    /*bottom: 0;*/
 }
 
 .footer-links {
