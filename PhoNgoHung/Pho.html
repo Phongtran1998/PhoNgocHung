@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta charset="UTF-8">
@@ -8,27 +9,32 @@
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
-    <link rel="stylesheet" href="Style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="Pho.css">
+
 </head>
 
 <body style="background-color: #b3ecff">
 
+<!-- title -->
 <h1 id="title" class="display-2 font-weight-bold font-italic"> Pho </h1>
 
+<!-- navbar1 -->
 <div class="button-container">
     <a class="button" href="index.html">About Us</a>
     <a class="button" href="Menu.html">Menu</a>
     <a class="button" href="Contact.html">Contact</a>
 </div>
 
+<!-- contact -->
 <div id="contact">
     Contact us: +1 (703) 347-7575
 </div>
 
+<!-- navbar2 -->
 <div class="section-container">
     <a class="section" href="Appetizer.html">Appetizer</a>
     <a class="section" href="#" style="background-color: white;color: #ff1a1a">Noodle</a>
@@ -38,90 +44,124 @@
 
 <br>
 
+<!-- navbar3 -->
 <div class="choice">
-    <a class="type" href="#pork">Beef Pho</a>
+    <a class="type" href="#beef">Beef Pho</a>
     <a class="type" href="#chicken">Chicken Pho</a>
-    <a class="type" href="#seafood">Seafood Pho</a>
-    <a class="type" href="#noodle">Wonton Noodle</a>
+    <a class="type" href="#wonton">Wonton Noodle</a>
 </div>
 
 <br>
 
-<div id="pork" class="row">
-    <div class="col" style="margin-left: 5px">
-        <h3 style="font-family: 'Nanum Gothic', sans-serif" class="font-weight-bold">Beef Pho - <small> Any combination:<br> Eye Round Steak, Well Done Lean Meat, Flank, Brisket, Soft Tendon, and Tripe</small></h3>
-   <img src="PhoTai.jpg" width="90%" height="750px">
-    </div>
-    <div class="col phoBo">
-        <br style="line-height: 35px">
-        <div style="line-height: 40px; margin-left: 20px">
-            <ol start="12">
-                <li>Pho Tai - Beef Noodle Soup With Slices Of Eye Round Steak</li>
-                <li>Pho Tai Chin - Beef Noodle Soup With Slices Of Eye Round Steak & Well Done Lean Meat</li>
-                <li>Pho Tai Nam - Beef Noodle Soup With Slices Of Eye Round Steak & Flank</li>
-                <li>Pho Tai Gan - Beef Noodle Soup With Slices Of Eye Round Steak & Soft Tendon</li>
-                <li>Pho Tai Bo Vien - Beef Noodle Soup With Slices Of Eye Round Steak & Meat Balls</li>
-                <li>Pho Tai Nam Gau - Beef Noodle Soup With Slices Of Eye Round Steak, Flank & Brisket</li>
-                <li>Pho Tai Nam Gan - Beef Noodle Soup With Slices Of Eye Round Steak, Flank & Soft Tendon</li>
-                <li>Pho Tai Nam  Gau Gan Sach - Beef Noodle Soup With Slices Of Eye Round Steak, Flank, Brisket, Soft Tendon & Tripe</li>
-                <li>Pho Chin Nam Gau - Beef Noodle Soup With Well Done Lean Meat, Flank & Brisket</li>
-                <li>Pho Nam Gau - Beef Noodle Soup With Flank & Brisket</li>
-                <li>Pho Nam Gau Gan - Beef Noodle Soup With Flank, Brisket & Soft Tendon</li>
-                <li>Pho Chin - Beef Noodle Soup With Well Done Lean Meat</li>
-                <li>Pho Chin Bo Vien - Beef Noodle Soup With Well Done Lean Meat & Meat Balls</li>
-                <li>Pho Chin Nam - Beef Noodle Soup With Well Done Lean Meat & Flank</li>
-                <li>Pho Chin Gan - Beef Noodle Soup With Well Done Lean Meat & Soft Tendon</li>
-                <li>Pho Chin Nam Gau Gan Sach< - Beef Noodle Soup With Well Done Lean Meat, Flank, Brisket, Soft Tendon & Tripe</li>
-                <li>Pho Bo Vien - Beef Noodle Soup With Meat Balls</li>
-            </ol>
-            <p style="font-style: italic">You can order any combination, these are the most preferable combinations by chef</p>
-        </div>
+<!-- main -->
+<div id="beef" style="line-height: 40px">
+        <div class="row">
+            <div class="col-lg-8">
+                <h1 style="font-family: 'Nanum Gothic', sans-serif; text-align: center" class="font-weight-bold">Beef Phở</h1>
+                <p style="font-size: 20px; font-weight: bold; font-style: italic; text-align: center">(Small: $8.45; Large: $9.45; Super Bowl: $12.45)</p>
+                <ol start="12">
+                    <li><b class="name"> Phở Tái </b> - <span class="rid"> Beef Noodle Soup With Slices Of </span> Eye Round Steak <span style="color: red">*</span></li>
+                    <li><b class="name"> Phở Tái Chín </b> - <span class="rid"> Beef Noodle Soup With Slices Of </span> Eye Round Steak & Well Done Lean Meat <span style="color: red">*</span></li>
+                    <li><b class="name"> Phở Tái Nạm </b> - <span class="rid"> Beef Noodle Soup With Slices Of </span> Eye Round Steak & Flank <span style="color: red">*</span></li>
+                    <li><b class="name"> Phở Tái Gân </b> - <span class="rid"> Beef Noodle Soup With Slices Of </span>> Eye Round Steak & Soft Tendon <span style="color: red">*</span></li>
+                    <li><b class="name"> Phở Tái Bò Viên </b> - <span class="rid">Beef Noodle Soup With Slices Of </span> Eye Round Steak & Meat Balls <span style="color: red">*</span></li>
+                    <li><b class="name"> Phở Tái Nạm Gầu </b> - <span class="rid">Beef Noodle Soup With Slices Of </span> Eye Round Steak, Flank & Brisket <span style="color: red">*</span></li>
+                    <li><b class="name"> Phở Tái Nạm Gân </b> - <span class="rid">Beef Noodle Soup With Slices Of </span> Eye Round Steak, Flank & Soft Tendon <span style="color: red">*</span></li>
+                    <li><b class="name"> Phở Tái Nạm Gầu Gân Sách </b> - <span class="rid">Beef Noodle Soup With Slices Of </span>
+                        Eye Round Steak, Flank, Brisket, Soft Tendon & Tripe <span style="color: red">*</span>
+                        <p style="font-weight: bold; font-style: italic; text-align: center; color: red">
+                            * These items are served raw or undercooked. Consuming raw or undercooked eggs, seafood or poultry can increase your chance of foodborne illnesses
+                        </p>
+                    </li>
+                    <li><b class="name"> Phở Chín Nạm Gầu </b> - <span class="rid">Beef Noodle Soup With </span> Well Done Lean Meat, Flank & Brisket</li>
+                    <li><b class="name"> Phở Nạm Gầu </b> - <span class="rid">Beef Noodle Soup With </span> Flank & Brisket</li>
+                    <li><b class="name"> Phở Nạm Gầu Gân </b> - <span class="rid">Beef Noodle Soup With </span> Flank, Brisket & Soft Tendon</li>
+                    <li><b class="name"> Phở Chín </b> - <span class="rid">Beef Noodle Soup With </span> Well Done Lean Meat</li>
+                    <li><b class="name"> Phở Chín Bò Viên </b> - <span class="rid">Beef Noodle Soup With </span> Well Done Lean Meat & Meat Balls</li>
+                    <li><b class="name"> Phở Chín Nạm </b> - <span class="rid">Beef Noodle Soup With </span> Well Done Lean Meat & Flank</li>
+                    <li><b class="name"> Phở Chín Gân </b> - <span class="rid">Beef Noodle Soup With </span> Well Done Lean Meat & Soft Tendon</li>
+                    <li><b class="name"> Phở Chín Nạm Gầu Gân Sách </b> - <span class="rid">Beef Noodle Soup With </span> Well Done Lean Meat, Flank, Brisket, Soft Tendon & Tripe</li>
+                    <li><b class="name"> Phở Bò Viên </b> - <span class="rid">Beef Noodle Soup With </span> Meat Balls</li>
+                    <li><b class="name"> Phở Đồ Biển </b> - <span class="rid">Beef Noodle Soup With </span> Seafood (Shrimp + Calamari)
+                        <p style="font-style: italic; font-weight: bold">(Small: $9.95; Large: $10.95; Super Bowl: $14.95)</p>
+                    </li>
+                </ol>
+                <h2 style="text-align: center">Vegetarian Phở</h2>
+                <ol start="60">
+                    <li><b class="name">Phở Bò/Gà Đậu Hũ Rau</b> - Vegetable and Tofu Noodle Soup With Chicken/Beef Broth
+                        <p style="font-style: italic; font-weight: bold"> (Small: 8.45; Large: 9.45; Super Bowl: $12.45)</p>
+                    </li>
+                </ol>
+            <p style="font-style: italic; text-align: center">You can order any combination, these are the most preferable combinations by chef</p>
+            </div>
+            <div class="picture col-lg-4 col-sm-12 row">
+                <div class="col-lg-12 col-md-6" style="text-align: center">
+                    <img src="Pho/PhoBoDB.JPG" style="width: 250px; height: 250px">
+                    <p class="footnote"><i> Phở Bò Đặc Biệt (27) </i></p>
+                </div>
+                <div class="col-lg-12 col-md-6" style="text-align: center">
+                    <img src="Pho/PhoTai.jpg" style="width: 250px; height: 250px">
+                    <p class="footnote"><i> Phở Tái (12) </i></p>
+                </div>
+                <div class="col-lg-12 col-md-6" style="text-align: center">
+                    <img src="Pho/PhoDoBien.jpg" style="width: 250px; height: 250px">
+                    <p class="footnote"><i> Phở Đồ Biển (29) </i></p>
+                </div>
+                <div class="col-lg-12 col-md-6" style="text-align: center">
+                    <img src="Pho/PhoGaDauHuRau.JPG" style="width: 250px; height: 250px">
+                    <p class="footnote"><i> Phở Gà Đậu Hũ Rau (60) </i></p>
+                </div>
+            </div>
         </div>
 </div>
-<br>
+
 <div id="chicken" class="row">
-    <div class="col" style="margin-left: 5px">
-        <h3 class="font-weight-bold" style="font-family: 'Nanum Gothic', sans-serif"> Chicken Pho</h3>
-        <img src="phoGa.jpg" width="90%" height="400px">
-    </div>
-    <div class="col phoGa">
-        <br>
-        <br>
-        <div style="line-height: 40px; margin-left: -10px">
+    <!-- Chicken -->
+    <div class="col-lg-8">
+        <div style="line-height: 40px">
+            <h1 class="font-weight-bold " style="font-family: 'Nanum Gothic', sans-serif; text-align: center"> Chicken Phở </h1>
+            <p style="font-size: 20px; font-weight: bold; font-style: italic; text-align: center">(Small: $8.45; Large: $9.45; Super Bowl: $12.45)</p>
             <ol start="30">
-                <li>Pho Ga Luon - Chicken Noodle Soup With Chicken White Meat</li>
-                <li>Pho Ga Dui Nuong - Chicken Noodle With Grilled Chicken Dark Meat</li>
-                <li>Pho Ga Dac Biet - Chicken Noodle With Chicken White Meat + Grilled Chicken Dark Meat</li>
+                <li><b class="name"> Phở Gà Lườn </b> - <span class="rid"> Chicken Noodle Soup With </span> Chicken White Meat</li>
+                <li><b class="name"> Phở Gà Đùi Nướng </b> - <span class="rid"> Chicken Noodle With </span> Grilled Chicken Dark Meat</li>
+                <li><b class="name"> Phở Gà Đặc Biệt </b> - <span class="rid"> Chicken Noodle With </span> Chicken White Meat + Grilled Chicken Dark Meat
+                    <p style="font-style: italic; font-weight: bold">(Small: $9.45; Large: $10.45; Super Bowl: $13.45)</p>
+                </li>
+            </ol>
 
+        </div>
+    </div>
+    <div class="picture col-lg-4" style="text-align: center">
+        <img src="Pho/PhoGaDB.jpg" style="width: 250px; height: 250px">
+        <p class="footnote"><i> Phở Gà Đặc Biệt (32) </i></p>
+    </div>
+</div>
+
+<div id="wonton" class="row">
+    <!-- Wonton -->
+    <div class="col-lg-8">
+        <div style="line-height: 40px;">
+            <h1 class="font-weight-bold" style="font-family: 'Nanum Gothic', sans-serif; text-align: center"> Wonton Noodle(Pork Broth) </h1>
+            <p style="font-size: 20px; font-style: italic; font-weight: bold; text-align: center">(Small: $9.45; Large: $10.45)</p>
+            <ol start="33">
+                <li><b class="name"> Mì Hoành Thánh Tôm </b> - Egg Noodle Soup + Wonton + Shrimp
+                    <p style="font-style: italic; font-weight: bold">(Small: $10.45; Large: $11.45)</p>
+                </li>
+                <li><b class="name"> Mì Hoành Thánh </b> - Egg Noodle Soup + Wonton </li>
+                <li><b class="name"> Hoành Thánh Tôm </b> - Soup + Wonton + Shrimp </li>
+                <li><b class="name"> Mì Đồ Biển </b> - Egg Noodle Soup + Seafood (Shrimp, Calamari) </li>
+                <li><b class="name"> Hủ Tiếu Đồ Biển </b> - Rice Noodle Soup + Seafood (Shrimp, Calamari) </li>
             </ol>
         </div>
     </div>
-    <div id="noodle" class="col" style="margin-left: 10px">
-            <h3 class="font-weight-bold" style=" font-family: 'Nanum Gothic', sans-serif">Wonton Noodle(Pork Broth)</h3>
-            <img src="HoanhThanh.jpg" width="90%" height="405px">
-    </div>
-    <div class="col hoanhThanh">
-        <br>
-        <div style="line-height: 40px;">
-        <ol start="33">
-            <li>Mi Hoanh Thanh Tom - Egg Noodle Soup + Wonton + Shrimp</li>
-            <li>Mi Hoanh Thanh - Egg Noodle Soup + Wonton</li>
-            <li>Hoanh Thanh Tom - Soup + Wonton + Shrimp </li>
-            <li>Mi Do Bien - Egg Noodle Soup + Seefood(Shrimp, Calamari)</li>
-            <li>Hu Tieu Do Bien - Rice Noodle Soup + Seafood(Shrimp, Calamari)</li>
-        </ol>
-        </div>
-    </div>
-</div>
-<br>
-<div id="seafood" class="row" style="margin-left: 35%">
-    <div class="col">
-        <h3 class="font-weight-bold" style="margin-left: 4%">29.Pho Do Bien - Seafood Pho</h3>
-        <img src="phoDoBien.jpg" width="500px" height="500px">
+
+    <div class="picture col-lg-4" style="text-align: center">
+        <img src="Pho/HoanhThanh.jpg" style="width: 250px; height: 250px">
+        <p class="footnote"><i> Mì Hoành Thánh (34) </i></p>
     </div>
 </div>
 
-
+<p class="name" style="text-align: center; font-size: 50px"> *** Carry Out (50 Cents Extra) *** </p>
 <!--<h1>My Web Page</h1>-->
 
 <!--<p>Hello everybody!</p>-->
@@ -137,7 +177,7 @@
 <!--</script>-->
 
 <!--<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>-->
-<footer>
+<footer style="margin-top: 10%">
     <p class="footer-links">
         <a target="_blank" href="https://www.facebook.com/pages/Pho-Ngoc-Hung/152227774864498" class="fa fa-facebook footer-link"></a>
         <a href="#" class="fa fa-instagram footer-link"></a>
@@ -147,20 +187,20 @@
 
 </footer>
 
-<script>
-    window.onscroll = function() {myFunction()};
+<!--<script>-->
+    <!--window.onscroll = function() {myFunction()};-->
 
-    var navbar = document.getElementById("contact");
-    var sticky = navbar.offsetTop;
+    <!--var navbar = document.getElementById("contact");-->
+    <!--var sticky = navbar.offsetTop;-->
 
-    function myFunction() {
-        if (window.pageYOffset >= sticky) {
-            navbar.classList.add("sticky")
-        } else {
-            navbar.classList.remove("sticky");
-        }
-    }
-</script>
+    <!--function myFunction() {-->
+        <!--if (window.pageYOffset >= sticky) {-->
+            <!--navbar.classList.add("sticky")-->
+        <!--} else {-->
+            <!--navbar.classList.remove("sticky");-->
+        <!--}-->
+    <!--}-->
+<!--</script>-->
 
 </body>
 </html>

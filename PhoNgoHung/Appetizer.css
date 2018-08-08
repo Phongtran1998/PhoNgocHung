@@ -1,0 +1,169 @@
+/* title */
+h1 {
+    text-align: center;
+}
+
+/* navbar1 */
+.button-container {
+    font-size: 0;
+    display: flex;
+}
+
+.button{
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #0099ff; /* Green */
+    border-right: 1px solid #537b55;
+    color: white;
+    /*padding: 15px 0;*/
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: bold;
+    font-family: Arial;
+    flex: 1;
+}
+
+.button:hover {
+    background-color: white;
+    color: #0099ff;
+}
+
+/* navbar2 */
+.section-container {
+    width: 75%;
+    display: flex;
+    margin-left: 13%;
+}
+
+.section:first-child {
+    border-left: 1px solid #537b55;
+}
+
+.section {
+    box-sizing: border-box;
+    background-color: #ff1a1a;
+    border-right: 1px solid #537b55;
+    border-bottom: 1px solid #537b55;
+    border-top: 1px solid #537b55;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: bold;
+    flex: 1;
+}
+
+.section:hover {
+    background-color: white;
+    color: #ff1a1a;
+}
+
+/* menu */
+.menu {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.image-dimension    {
+    width: 250px;
+    height: 250px;
+}
+
+/* footer */
+footer{
+    /*position: fixed;*/
+    /*margin-top: 40px;*/
+    background-color: #0099ff;
+    width: 100%;
+    height: 150px;
+    /*bottom: 0;*/
+}
+
+.footer-links {
+    padding: 25px 0 23px;
+    margin: 0;
+    font-size: 30px;
+    letter-spacing: 20px;
+    text-decoration: none;
+    border-radius: 50%;
+    text-align: center;
+}
+.footer-company-name {
+    color: white;
+    font-size: 20px;
+    margin: 0;
+    padding-bottom: 5px;
+    text-align: center;
+    position: relative;
+    top: -10%;
+}
+
+.footer-link {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.name {
+    color: rgb(217, 102, 114);
+}
+
+.row    {
+    margin-top : 100px;
+}
+
+.row p  {
+    margin-top: 5%;
+}
+
+#contact    {
+    background-color: steelblue;
+    text-align: center;
+    font-size: 40px;
+    padding: 25px;
+    margin-bottom: 20px;
+
+}
+
+@media only screen and (max-width: 576px)   {
+    /*#intro  {*/
+    /*display: none;*/
+    /*}*/
+    #title  {
+        font-size: 40px;
+        margin: 5% auto;
+    }
+    #intro  {
+        margin-top: 10%;
+    }
+
+    .time    {
+        flex-direction: column;
+    }
+    .header {
+        font-size: 100%;
+    }
+
+    #welcome    {
+        font-size: 200%;
+    }
+
+    .button-container, .section-container   {
+        flex-direction: column;
+    }
+
+    .food:nth-child(n)  {
+        background-color: powderblue;
+        margin-bottom: 10%;
+    }
+
+    #contact    {
+        font-size: 25px;
+        font-weight: bold;
+    }
+}
+
