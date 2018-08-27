@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Order</title>
+    <link rel="stylesheet" href="Style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</head>
+</head>
+<body style="background-color: #b3ecff">
+<script src="https://www.gstatic.com/firebasejs/5.3.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.3.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.3.0/firebase-database.js"></script>
+<script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyCuCRJelcMeZPsm84AKw7VpCpEjMfV7LXg",
+        authDomain: "phongochung.firebaseapp.com",
+        databaseURL: "https://phongochung.firebaseio.com",
+        projectId: "phongochung",
+        storageBucket: "phongochung.appspot.com",
+        messagingSenderId: "903165946620"
+    };
+    firebase.initializeApp(config);
+</script>
+<div class="main-container">
+    <h1 id="welcome" class="display-3 font-weight-bold font-italic">Order Form</h1>
+    <div class="button-container">
+        <a class="button" href="#">About Us</a>
+        <a class="button" href="Menu.html">Menu</a>
+        <a class="button" href="Contact.html">Contact</a>
+    </div>
+    <form>
+    Select your food:
+    <select id="item">
+        <option value="apple">Apple</option>
+        <option value="orange">Orange</option>
+        <option value="pineapple">Pineapple</option>
+        <option value="banana">Banana</option>
+    </select>
+</form>
+
+<p>Click the button to return the value of the selected fruit.</p>
+
+<button type="button" onclick="onClick()">Try it</button>
+
+<p id="demo"></p>
+</div>
+<footer>
+    <p class="footer-links">
+        <a target="_blank" href="https://www.facebook.com/pages/Pho-Ngoc-Hung/152227774864498" class="fa fa-facebook footer-link"></a>
+        <a target="_blank" href="#" class="fa fa-instagram footer-link"></a>
+        <a target="_blank" href="https://www.yelp.com/biz/pho-ngoc-hung-falls-church" class="fa fa-yelp footer-link"></a>
+    </p>
+    <p class="footer-company-name">&#9400; 2018 by Pho Ngoc Hung</p>
+</footer>
+
+
+<script>
+    function onClick() {
+        var item = {
+            "Food": document.getElementById("item").value
+        };
+        console.log(item);
+        firebase.database().ref("users/klkDWdLUNJZzuQs6jemk7jkylry1/item")
+            .push(item)
+    }
+
+</script>
+</body>
+</html>
